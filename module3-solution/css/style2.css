@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #c4bde0;
+    font-family: 'Oxygen', sans-serif;
+}
+  
+.dummy1 , .dummy2 , .dummy3 {
+    border: 1px solid black;
+    background-color: rgb(220, 231, 179);
+    padding: 10px;
+    color: black;
+    width: 90%;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 100px;
+} 
+  /** HEADER **/
+#header-nav {
+    background-color: sandybrown;
+    border-radius: 0;
+    border: 0;
+}
+  
+.navbar-brand {
+    padding-top: 25px;
+}
+  
+.navbar-brand h1 { /* food,llc */
+    font-family: 'Lora', serif;
+    color: rgb(219, 137, 219);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+
+#dropdown-menu {
+    margin-top: 10px;
+}
+#dropdown-menu a {
+    color: #74ddf0;
+    text-align: center;
+}
+#dropmenu-menu a:hover {
+    background: #cfd8da;
+}
+#dropdown-menu a span {
+    font-size: 1.8em;
+} 
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #a71249;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+/*End of header*/
+
+.section-heading {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+
+}
+
+#sections{
+    width: 100%;
+    overflow: auto;
+}
+
+#heading{
+    color: black;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
